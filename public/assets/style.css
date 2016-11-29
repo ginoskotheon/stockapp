@@ -1,0 +1,45 @@
+body {
+
+  padding: 50px;
+  background: lightblue;
+}
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  color: #fff;
+}
+
+.canvaswrap {
+  margin: auto;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.5)
+
+}
+
+.stockblock {
+  color: #fff;
+}
+ul {
+  margin: auto;
+  color: #fff;
+}
+ul li {
+  text-align: center;
+  margin-left: -40px;
+  padding: 10px;
+  background: 	rgb(155,216,230);
+}
+ul li:nth-child(even) {
+  padding: 10px;
+  background: lightblue;
+}
+ul li i {
+  position: absolute;
+  margin-top: -15px;
+  margin-left: 100px;
+}
+.pickAstock{
+  margin: 10px;
+  text-align: center;
+}

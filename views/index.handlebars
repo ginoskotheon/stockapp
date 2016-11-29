@@ -1,0 +1,24 @@
+
+<h1 class="text-center"> Stock Trends </h1>
+<div>
+  <div class="canvaswrap" style="width: 1000px">
+    <canvas id="lineChart" width="1000" height="600"></canvas>
+  </div>
+
+  <h3 class="stockblock text-center">Chosen Stocks</h3>
+  <hr />
+  <div>
+
+    <ul class="picks" id="picks" style="list-style: none">
+      {{#each stocks}}
+          <li class="stocks">{{this}}<div class="delete" id="delete" type="text"><i class=" fa fa-trash-o"></i></div></li>
+      {{/each}}
+    </ul>
+  </div>
+
+
+  <form class="pickAstock" id="pickAstock">
+    <input class="stock" id="stock" type='text' name='name' placeholder="Add a stock symbol"/>
+    <button class="btn btn-default" id="butts">Submit</button>
+  </form>
+</div>

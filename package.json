@@ -1,0 +1,21 @@
+{
+  "name": "stockapp",
+  "version": "1.0.0",
+  "description": "stock app for fcc",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "William McDonald",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0",
+    "express-session": "^1.14.2",
+    "jade": "^1.11.0",
+    "mongoose": "^4.7.0",
+    "morgan": "^1.7.0"
+  }
+}
