@@ -1,4 +1,4 @@
-#STOCKS
+#STOCKS APP
 ![alt stocks](https://github.com/ginoskotheon/stockapp/blob/master/public/assets/stocks.png)
 ##### by William McDonald
 
@@ -7,11 +7,10 @@ Single Page App that charts the stock market using data from the Markit on deman
 ##### I learned
 
  - How to connect to a third party API for stocks data.
- - How to make an autocomplete box from API data.
- - How to use d3.js to visualize data.
- - How to use toast notifications to warn the user of errors.
- - How to refresh d3 elements so the proper items stay on top.
- - How to use socket.io to deliver updates to users in real time.
+ - How to add datasets to Chart.js dynamically 
+ - How to dynamically change css colors with JavaScript
+ - How to put a picture in a README.
+
 
 ##### Skills used
  - MongoDB/Mongoose
@@ -31,4 +30,4 @@ Single Page App that charts the stock market using data from the Markit on deman
  - As a user, I can see changes in real-time when any other user adds or removes a stock.
 
 ##### Known issues
- - The API may stop responding after multiple queries in quick succession. The autocomplete uses the API as well.
+ - The chart display values when there are no stocks being viewed are a strange default. 
