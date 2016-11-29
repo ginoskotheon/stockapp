@@ -31,3 +31,7 @@ Single Page App that charts the stock market using data from the Markit on deman
 
 ##### Known issues
  - The chart display values when there are no stocks being viewed are a strange default. 
+
+##### View a live demo:
+
+https://warm-shelf-85850.herokuapp.com/
